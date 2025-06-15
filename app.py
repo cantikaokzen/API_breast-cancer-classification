@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from flasgger import Swagger, swag_from
 import numpy as np
@@ -23,7 +23,7 @@ swagger = Swagger(app)
 
 @app.route('/')
 def home():
-    return jsonify({"message": "Test API"})
+    return render_template('index.html')
 
 
 @app.route('/predict', methods=['POST'])

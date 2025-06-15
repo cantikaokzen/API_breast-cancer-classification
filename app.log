@@ -575,3 +575,11 @@
 2025-06-15 16:54:12,456 - INFO - 127.0.0.1 - - [15/Jun/2025 16:54:12] "GET /apispec_1.json HTTP/1.1" 200 -
 2025-06-15 16:54:52,701 - INFO - Received prediction request: {'area_mean': 800.1, 'area_se': 60.1, 'area_worst': 900.5, 'concave_points_mean': 0.05, 'concave_points_worst': 0.15, 'concavity_mean': 0.1, 'perimeter_mean': 90.2, 'perimeter_worst': 140.2, 'radius_mean': 14.2, 'radius_worst': 17.4}
 2025-06-15 16:54:52,858 - INFO - 127.0.0.1 - - [15/Jun/2025 16:54:52] "POST /predict HTTP/1.1" 200 -
+2025-06-15 22:11:07,183 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-15 22:11:07,746 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 22:11:07,750 - INFO -  * Restarting with stat
+2025-06-15 22:11:11,381 - WARNING -  * Debugger is active!
+2025-06-15 22:11:11,395 - INFO -  * Debugger PIN: 412-120-682
+2025-06-15 22:12:19,430 - INFO - 127.0.0.1 - - [15/Jun/2025 22:12:19] "GET / HTTP/1.1" 200 -
+2025-06-15 22:13:55,885 - INFO - 127.0.0.1 - - [15/Jun/2025 22:13:55] "GET / HTTP/1.1" 200 -
