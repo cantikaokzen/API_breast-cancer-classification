@@ -7,7 +7,7 @@ import logging
 from datetime import datetime
 
 # Load model
-model = joblib.load('LightGBM_Model.pkl')
+model = joblib.load('model_mlp_final.pkl')
 
 # Setup logging
 logging.basicConfig(
